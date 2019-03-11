@@ -33,10 +33,6 @@ html{
 audio{
  animation: opacity 10s infinite;
 }
-button{
- background-image:url()
- opacity:0.3;
- 
 }
 div{
  animation: rotate 10s infinite;
