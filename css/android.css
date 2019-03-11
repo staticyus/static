@@ -1,0 +1,43 @@
+@keyframes color{
+ 0%{color:red}
+ 25%{color:green}
+ 50%{color:yellow}
+ 75%{color:blue}
+ 100%{color:red}
+}
+@keyframes opacity{
+ 0%{opacity:0}
+ 25%{opacuty:50}
+ 50%{opacity:100}
+ 75%{opacity:50}
+ 100%{opacity:0}
+}
+@keyframes rotate{
+ 0%{transform:rotateZ(0deg);}
+ 100%{transform:rotateZ(360deg);}
+}
+body{
+ background-image:url("../img/bg.jpg");
+ background-size: 100%;
+ weight:100%;
+ font-size:100px;	
+ text-align:center;
+ animation: color 10s infinite;
+}
+html{
+ weight:100%;
+}
+#p1{
+ font-size:200px; 
+}
+audio{
+ animation: opacity 10s infinite;
+}
+button{
+ background-image:url()
+ opacity:0.3;
+ 
+}
+div{
+ animation: rotate 10s infinite;
+}
